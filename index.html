@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>тестовое задание</title>
+</head>
+<body>
+    <main>
+        <form id="booking-form">
+            <label for="tower-select">Выберите башню:</label>
+            <select id="tower-select" name="tower">
+              <option value="A">Башня А</option>
+              <option value="B">Башня Б</option>
+            </select>
+            
+            <label for="floor-select">Выберите этаж:</label>
+            <select id="floor-select" name="floor">
+              <option value="c2">C2</option>
+              <option value="c3">C3</option>
+              <option value="c4">C4</option>
+              <option value="27">27</option>
+            </select>
+            
+            <label for="room-select">Выберите переговорку:</label>
+            <select id="room-select" name="room">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="10">10</option>
+            </select>
+            
+            <label for="date-picker">Выберите дату и время:</label>
+            <input type="datetime-local" id="date-picker" name="date-time">
+            
+            <label for="comment-textarea">Комментарий:</label>
+            <textarea id="comment-textarea" name="comment"></textarea>
+            
+            <button type="submit" id="submit-button">Отправить</button>
+            <button type="button" id="clear-button">Очистить</button>
+          </form>
+            
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
